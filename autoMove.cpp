@@ -89,7 +89,6 @@ if (client == NULL)
     exit (EXIT_FAILURE);
 }
 enet_address_set_host (&address, "10.1.107.69");
-//enet_address_set_host (&address, "192.168.0.1");
 address.port = 7000;
 
 peer = enet_host_connect (client, &address, 2, 0);    
